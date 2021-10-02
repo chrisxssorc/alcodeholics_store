@@ -26,7 +26,7 @@ async function getUserById(userId) {
     return user;
 }
 
-async function registerUser({username, password, isAdmin}) {
+async function registerUser(username, password, isAdmin) {
     const hashedPassword = bcrypt.hashSync(password, 10);
 
     const { rows: [user] } = await client.query(

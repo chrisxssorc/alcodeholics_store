@@ -98,105 +98,105 @@ async function populateInitialData() {
               name: "Malibu",
               price: 14.99,
               description: "This shit is so good, you will forget you are drinking until it is too late!",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Malibu%20Rum.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Malibu%20Rum.png"
             },
             {
               type: "Vodka",
               name: "Smirnoff",
               price: 22.99,
               description: "I can't explain how many nights I have forgotten while drinking this shit!",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Vodka.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Vodka.png"
             },
             {
               type: "Whiskey",
               name: "Teacher's",
               price: 16.99,
               description: "You must be a pretty cool individual, you gotta have a sick ass mustache, like Sam fucking Elliott!",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Blended%20Whiskey.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Blended%20Whiskey.png"
             },
             {
               type: "Cognac Fine Champagne",
               name: "Courvoisier",
               price: 49.99,
               description: "Buy me at a gas station and flex on instagram about it",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Cognac.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Cognac.png"
             },
             {
               type: "English Gin",
               name: "Plymouth",
               price: 26.99,
               description: "For all the old angry men out there ",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Gin.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Gin.png"
             },
             {
               type: "Vodka",
               name: "Burnett's Pineapple",
               price: 6.99,
               description: "Only for the cultured few that may appreciate the deep complex flavors that come alongside a 7 dollar plastic bottle of vodka",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Pineapple%20vodka.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Pineapple%20vodka.png"
             },
             {
               type: "Apple Brandy",
               name: "Santa Fe Spirits",
               price: 36.99,
               description: "Little baby need his appie juice?",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Apple%20Brandy.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Apple%20Brandy.png"
             },
             {
               type: "Jamaican Rum",
               name: "Captain Morgan: Black Label",
               price: 29.99,
               description: "Every Pirates of the Carribean film is an cinematic masterpiece.",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Rum.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Rum.png"
             },
             {
               type: "Tequila, Silver",
               name: "Sierra Tequila",
               price: 15.99,
               description: "This alcohol is only every bought in order to get the tiny red hat the comes with it.",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Tequila.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Tequila.png"
             },
             {
               type: "Banana Liquer",
               name: "Collins Cordials",
               price: 23.99,
               description: "Minions love this shit",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Banana%20Liqueur.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Banana%20Liqueur.png"
             },
             {
               type: "Bourbon, Whiskey",
               name: "Michter's Small Batch",
               price: 45.99,
               description: "Old Stinky Whiskey",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Bourbon.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Bourbon.png"
             },
             {
               type: "Banana Liquer",
               name: "BOLS",
               price: 14.99,
               description: "Cant get enough of the nana.",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Creme%20De%20Banane.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Creme%20De%20Banane.png"
             },
             {
               type: "Light Rum",
               name: "Bacardi: Superior",
               price: 14.99,
               description: "I have never not regretted drinking bacardi.",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Light%20Rum.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Light%20Rum.png"
             },
             {
               type: "Single-Malt Scotch",
               name: "Macallan Amber",
               price: 89.99,
               description: "I don't know enough about the Scottish people to describe this bottle.",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Scotch.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Scotch.png"
             },
             {
               type: "Rye Whiskey",
               name: "Journeyman Distillery: Last Feather Rye",
               price: 45.99,
               description: "Distilled from the blood of dead crows.",
-              imageUrl: "https://www.thecocktaildb.com/images/ingredients/Rye%20Whiskey.png"
+              imageURL: "https://www.thecocktaildb.com/images/ingredients/Rye%20Whiskey.png"
             },
           ];
 
