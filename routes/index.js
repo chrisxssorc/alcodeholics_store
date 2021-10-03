@@ -1,6 +1,6 @@
 const apiRouter = require('express').Router();
 const usersRouter = require('./users');
-const alcoholRouter = require('./alcohol');
+const alcoholsRouter = require('./alcohols');
 const cartRouter = require('./cart');
 
 apiRouter.get('/', (req, res, next) => {
@@ -10,7 +10,7 @@ apiRouter.get('/', (req, res, next) => {
 })
 
 apiRouter.use('/users', usersRouter);
-apiRouter.use('/alcohol', alcoholRouter);
+apiRouter.use('/alcohols', alcoholsRouter);
 apiRouter.use('/cart', cartRouter);
 
 module.exports = apiRouter;
