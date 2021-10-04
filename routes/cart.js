@@ -16,8 +16,8 @@ cartRouter.post('/add', async (req, res, next) => {
     res.send(cartItem);
 })
 
-cartRouter.delete('/remove/:userId/:alcoholId', async (req, res, next) => {
-    const { userId, alcoholId } = req.params;
+cartRouter.delete('/remove', async (req, res, next) => {
+    const { userId, alcoholId } = req.body;
     const cartItem = await removeFromCart(userId, alcoholId);
 
     res.send(cartItem);
