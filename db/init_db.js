@@ -79,7 +79,7 @@ async function populateInitialUsers() {
             }
           ];
 
-          const users = await Promise.all(usersToCreate.map(registerUser));
+          const users = await Promise.all(usersToCreate.map(user => registerUser(user.username, user.password, user.isAdmin)));
 
           console.log("Users Created: ", users);
           console.log("Finished creating users!")

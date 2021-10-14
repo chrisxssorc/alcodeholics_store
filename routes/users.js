@@ -23,7 +23,9 @@ usersRouter.get('/:userId', async (req, res, next) => {
 })
 
 usersRouter.post('/register', async (req, res, next) => {
+    console.log('HELLO')
     const { username, password } = req.body;
+    console.log("routes", username, password)
     const user = await registerUser(username, password);
 
     if (!user) {

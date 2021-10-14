@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { logoutUser } from '../api/index';
-import Button from '@mui/material/Button';
+import { Button } from '@mui/material';
 
 const Navbar = ({user, setUser}) => {
     const history = useHistory();

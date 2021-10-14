@@ -18,7 +18,7 @@ const cors = require('cors');
 server.use(cors());
 
 // API
-server.use('./api', require('./routes'));
+server.use('/api', require('./routes'));
 
 // By default, serve the react app if route is unrecognized
 server.use((req, res, next) => {
