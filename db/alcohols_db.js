@@ -6,13 +6,13 @@ const createAlcohol = async ({
     price, 
     description, 
     inStock, 
-    imageURL}
+    image}
     ) => {
         const { rows } = await client.query(
-            `INSERT INTO alcohols(type, name, price, description, "inStock", imageURL)
+            `INSERT INTO alcohols(type, name, price, description, "inStock", image)
             VALUES($1, $2, $3, $4, $5, $6)
             RETURNING *;
-            `, [type, name, price, description, inStock, imageURL]
+            `, [type, name, price, description, inStock, image]
         );
 
         return rows;
