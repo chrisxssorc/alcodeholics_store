@@ -73,9 +73,10 @@ async function populateInitialUsers() {
               password: "MaxwellMwashere",
               isAdmin: true,
             },
-            {username: "SuperUser",
-             password: "SuperPassword",
-             isAdmin: true
+            {
+              username: "admin",
+              password: "admin",
+              isAdmin: true
             }
           ];
 
