@@ -36,19 +36,11 @@ const App = () => {
                     </Route>
                     <Route exact path="/registerUserAccount">
                         <RegisterForm
-                            username = {username}
-                            setUsername = {setUsername}
-                            password = {password}
-                            setPassword = {setPassword}
                             setUser = {setUser}
                         />
                     </Route>
                     <Route exact path="/loginUserAccount">
                         <LoginForm
-                            username = {username}
-                            setUsername = {setUsername}
-                            password = {password}
-                            setPassword = {setPassword}
                             setUser = {setUser}
                         />
                     </Route>

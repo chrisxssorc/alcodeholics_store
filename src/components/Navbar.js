@@ -22,8 +22,8 @@ const Navbar = ({user, setUser}) => {
                 setUser(null);
                 history.push("/registerUserAccount");
             }}>Log Out</Button>
-            : <Link to="/registerUserAccount">
-                <Button variant="contained">Register Account</Button>
+            : <Link to="/loginUserAccount">
+                <Button variant="contained">Log In</Button>
             </Link>
             }
 

@@ -39,7 +39,7 @@ const RegisterForm = ({setUser}) => {
                     onChange={(event) => setPassword(event.target.value)}
                 />
                 <Button variant="contained" type="submit">Submit</Button>
-                <h6>Already have an account? <Link to="/loginUser">Log In Here</Link></h6>
+                <h6>Already have an account? <Link to="/loginUserAccount">Log In Here</Link></h6>
             </form>
         </div>
     )
