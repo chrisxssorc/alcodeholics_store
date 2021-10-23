@@ -96,3 +96,48 @@ span.price {
     float: right;
     color: grey;
 }
+
+#cart {
+    border: 5px solid black;
+    background-color: rgb(247, 244, 183);
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin: auto;
+    margin-top: 140px;
+    min-width: 600px;
+
+
+}
+.cartButton {
+    border: 5px solid rgb(128, 0, 30);
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(255, 150, 105);
+    margin-top: auto;
+    margin: 5px;
+
+}
+.cartItem {
+    font-size: 24px;
+    border: 1px solid black;
+    background-color: rgb(248, 241, 228);
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#total {
+    font-size: 26px;
+    border: 1px solid black;
+    background-color: rgb(251, 158, 158);
+    padding: 6px;
+    padding-left: 8px;
+}
+

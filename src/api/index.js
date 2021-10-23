@@ -53,7 +53,7 @@ export async function addToCart(userId, alcoholId) {
 
 export async function removeFromCart(userId, alcoholId) {
     try {
-        const { data } = await axios.delete('/api/cart/remove', {userId, alcoholId});
+        const { data } = await axios.delete(`/api/cart/remove/${userId}/${alcoholId}`);
         return data;
     } catch (error) {
         console.log(error);
