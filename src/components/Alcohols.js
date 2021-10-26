@@ -26,7 +26,7 @@ const Alcohols = ({alcohols, setAlcohols, user}) => {
             {alcohols.map((alcohol, index) => {
                 return (
                     <div className="alcoholCard" key={index}>
-                        <Card variant="outlined" sx={{margin: "10px", padding: "5px", width: "350px", height: "450px"}}>
+                        <Card variant="outlined" sx={{margin: "20px", padding: "10px", width: "400px", height: "450px"}}>
                             <CardMedia
                                 component="img"
                                 src={alcohol.image}

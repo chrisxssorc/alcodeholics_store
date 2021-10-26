@@ -5,10 +5,42 @@
     margin: 0;
 }
 
+.login, .register {
+    margin: auto;
+    margin-top: 10vh;
+    width: 40vw;
+    min-height: 50vh;
+    border: 2px solid gray;
+    border-radius: 7%;
+    padding: 20px;
+}
+
+.loginForm, .registerForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.usersList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 8vh;
+    width: 85%
+}
+
+.userCard {
+    width: 40vw;
+    margin: 5px;
+}
+
 .Alcohols {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5vh;
+    width: 90%;
 }
 
 #payform {

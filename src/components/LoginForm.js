@@ -28,18 +28,19 @@ const LoginForm = ({setUser}) => {
                 <TextField 
                     id="newUsername" 
                     label="Enter username" 
-                    variant="outlined" 
+                    variant="standard"
+                    type="string"
                     onChange={(event) => setUsername(event.target.value)}
                 />
                 <TextField 
                     id="newPassword" 
                     label="Enter password" 
-                    variant="outlined" 
+                    variant="standard" 
                     type="password"
                     onChange={(event) => setPassword(event.target.value)}
                 />
                 <Button variant="contained" type="submit">Submit</Button>
-                <h6>Don't have an account? <Link to="/registerUserAccount">Register Here</Link></h6>
+                <h5>Don't have an account? <Link to="/registerUserAccount">Register Here</Link></h5>
             </form>
         </div>
     )

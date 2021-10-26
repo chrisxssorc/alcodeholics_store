@@ -28,18 +28,19 @@ const RegisterForm = ({setUser}) => {
                 <TextField 
                     id="newUsername" 
                     label="Enter new username" 
-                    variant="outlined" 
+                    variant="standard"
+                    type="string" 
                     onChange={(event) => setUsername(event.target.value)}
                 />
                 <TextField 
                     id="NewPassword" 
                     label="Enter new password" 
-                    variant="outlined" 
+                    variant="standard" 
                     type="password"
                     onChange={(event) => setPassword(event.target.value)}
                 />
                 <Button variant="contained" type="submit">Submit</Button>
-                <h6>Already have an account? <Link to="/loginUserAccount">Log In Here</Link></h6>
+                <h5>Already have an account? <Link to="/loginUserAccount">Log In Here</Link></h5>
             </form>
         </div>
     )
