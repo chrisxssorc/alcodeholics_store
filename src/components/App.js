@@ -14,8 +14,6 @@ import ThankYouPage from './ThankYouPage';
 
 const App = () => {
     const [user, setUser] = useState(JSON.parse(localStorage.getItem("data")));
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
     const [users, setUsers] = useState([]);
     const [alcohols, setAlcohols] = useState([]);
 
