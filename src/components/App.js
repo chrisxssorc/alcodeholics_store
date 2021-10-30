@@ -54,7 +54,9 @@ const App = () => {
                         />
                     </Route>
                     <Route exact path="/paymentform">
-                        <PaymentForm />
+                        <PaymentForm
+                            user = {user}
+                        />
                     </Route>
                     <Route exact path="/thankyoupage">
                         <ThankYouPage />

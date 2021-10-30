@@ -1,7 +1,8 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import { checkout } from '../api/index';
 
-const PaymentForm = () => {
+const PaymentForm = ({user}) => {
     const history = useHistory();
 
     return (
@@ -111,9 +112,12 @@ const PaymentForm = () => {
                     </div>
                     <input
                     type="submit"
-                    value="Finish Payment"
+                    value="Complete Order"
                     className="paymentbtn"
-                    onClick={() => { history.push('/thankyoupage')}}
+                    onClick={async () => {
+                        await checkout(user.user.id);
+                        history.push('/thankyoupage')
+                    }}
                     ></input>
                 </form>
                 </div>

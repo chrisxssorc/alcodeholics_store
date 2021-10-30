@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
+import { Button } from '@mui/material';
 import {
     getPendingItemsByUser,
     removeFromCart,
-    checkout,
     changeQuantity
 } from '../api/index';
 
@@ -84,20 +84,17 @@ const Cart = ({user}) => {
               })}
               <div id="total">TOTAL: ${total}</div>
               {total === 0 ? (
-                <button id="disabledButton" disabled="true" className="cartButton">
+                <Button variant="contained" color="warning" sx={{width: "10vw", margin: "auto", marginTop: "3vh", marginRight: "0"}}>
                   Checkout
-                </button>
+                </Button>
               ) : (
-                <button
-                  className="cartButton"
+                <Button variant="contained" color="warning" sx={{width: "10vw", margin: "auto", marginTop: "3vh", marginRight: "0"}}
                   onClick={() => {
-                    checkout(user.user.id);
-                    setCartItems(new Array());
                     history.push("/paymentform");
-                  }}
-                >
+                  }}>
                   Checkout
-                </button>
+                </Button>
+                
               )}
             </div>
           );
