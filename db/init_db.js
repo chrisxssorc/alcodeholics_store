@@ -98,42 +98,42 @@ async function populateInitialData() {
               type: "Rum",
               name: "Malibu",
               price: 14.99,
-              description: "This shit is so good, you will forget you are drinking until it is too late!",
+              description: "This stuff is so good, you will forget you are drinking until it is too late!",
               image: "https://www.thecocktaildb.com/images/ingredients/Malibu%20Rum.png"
             },
             {
               type: "Vodka",
               name: "Smirnoff",
               price: 22.99,
-              description: "I can't explain how many nights I have forgotten while drinking this shit!",
+              description: "I can't explain how many nights I have forgotten while drinking this!",
               image: "https://www.thecocktaildb.com/images/ingredients/Vodka.png"
             },
             {
               type: "Whiskey",
               name: "Teacher's",
               price: 16.99,
-              description: "You must be a pretty cool individual, you gotta have a sick ass mustache, like Sam fucking Elliott!",
+              description: "You must be a pretty cool individual, you gotta have a sick mustache!",
               image: "https://www.thecocktaildb.com/images/ingredients/Blended%20Whiskey.png"
             },
             {
               type: "Cognac Fine Champagne",
               name: "Courvoisier",
               price: 49.99,
-              description: "Buy me at a gas station and flex on instagram about it",
+              description: "Buy me at a gas station and flex on instagram about it.",
               image: "https://www.thecocktaildb.com/images/ingredients/Cognac.png"
             },
             {
               type: "English Gin",
               name: "Plymouth",
               price: 26.99,
-              description: "For all the old angry men out there ",
+              description: "For all the old angry men out there.",
               image: "https://www.thecocktaildb.com/images/ingredients/Gin.png"
             },
             {
               type: "Vodka",
               name: "Burnett's Pineapple",
               price: 6.99,
-              description: "Only for the cultured few that may appreciate the deep complex flavors that come alongside a 7 dollar plastic bottle of vodka",
+              description: "Only for the cultured few that may appreciate the deep complex flavors that come in a 7 dollar plastic bottle of vodka.",
               image: "https://www.thecocktaildb.com/images/ingredients/Pineapple%20vodka.png"
             },
             {
@@ -161,14 +161,14 @@ async function populateInitialData() {
               type: "Banana Liquer",
               name: "Collins Cordials",
               price: 23.99,
-              description: "Minions love this shit",
+              description: "Minions love this.",
               image: "https://www.thecocktaildb.com/images/ingredients/Banana%20Liqueur.png"
             },
             {
               type: "Bourbon, Whiskey",
               name: "Michter's Small Batch",
               price: 45.99,
-              description: "Old Stinky Whiskey",
+              description: "Old Stinky Whiskey.",
               image: "https://www.thecocktaildb.com/images/ingredients/Bourbon.png"
             },
             {
