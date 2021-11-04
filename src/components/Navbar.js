@@ -1,42 +1,46 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { logoutUser } from '../api/index';
-import { Button } from '@mui/material';
 
 const Navbar = ({user, setUser}) => {
     const history = useHistory();
     return (
         <div className="Nav">
-            {user
-            ? <h3>Welcome Back, {user.user.username}!</h3>
-            : ''
-            }
+            <div className="headerText">
+                <h1 className="title">alCODEholics</h1>
+                {user
+                ? <h3 className="welcomeBack">Welcome Back, {user.user.username}!</h3>
+                : ''
+                }
+            </div>
+            
+            <div className="navButtons">
+                {user && user.user.isAdmin
+                ? <div onClick={() => {
+                    history.push("/users");
+                }}>User List</div>
+                : ""
+                }
 
-            <Link to="/">
-                <Button variant="contained">Our Products</Button>
-            </Link>
+                <div onClick={() => {
+                    history.push("/");
+                }}>Our Products</div>
 
-            {user
-            ? <Button variant="contained" onClick={() => {
-                logoutUser();
-                setUser(null);
-                history.push("/registerUserAccount");
-            }}>Log Out</Button>
-            : <Link to="/loginUserAccount">
-                <Button variant="contained">Log In</Button>
-            </Link>
-            }
+                <div onClick={() => {
+                    history.push("cart");
+                }}>Cart</div>
 
-            <Link to="/cart">
-                <Button variant="contained">Cart</Button>
-            </Link>
-
-            {user && user.user.isAdmin
-            ? <Link to="/users">
-                <Button variant="contained">User List</Button>
-            </Link>
-            : ""
-            }
+                {user
+                ? <div onClick={() => {
+                    logoutUser();
+                    setUser(null);
+                    history.push("/registerUserAccount");
+                }}>Log Out</div>
+                : <div onClick={() => {
+                    history.push("/loginUserAccount");
+                }}>Log In</div>
+                }
+            </div>
         </div>
     );
 }
