@@ -16,6 +16,11 @@
     padding: 15px;
 }
 
+.headerText .title:hover {
+    cursor: pointer;
+    color: rgb(0, 183, 255);
+}
+
 .title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
@@ -59,6 +64,10 @@
     row-gap: 30px;
 }
 
+.loginForm label, .registerForm label {
+    font-size: 1.3rem;
+}
+
 .usersList {
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +88,14 @@
     margin: auto;
     margin-top: 5vh;
     width: 90%;
+}
+
+#loginPrompt {
+    margin: auto;
+    margin-top: 20vh;
+    width: 40vw;
+    height: 30vh;
+    text-align: center;
 }
 
 #payform {

@@ -26,9 +26,7 @@ const Cart = ({user}) => {
         return (
             <div id="loginPrompt">
                 <h1>
-                    Please <Link to="/loginUserAccount">Login</Link> or 
-                    <Link to="/registerUserAccount">Register</Link> to 
-                    see your cart!
+                    Please <Link to="/loginUserAccount">Login</Link> or <Link to="/registerUserAccount">Register</Link> to see your cart!
                 </h1>
             </div>
         )

@@ -7,7 +7,9 @@ const Navbar = ({user, setUser}) => {
     return (
         <div className="Nav">
             <div className="headerText">
-                <h1 className="title">alCODEholics</h1>
+                <h1 className="title" onClick={() => {
+                    history.push("/");
+                }}>alCODEholics</h1>
                 {user
                 ? <h3 className="welcomeBack">Welcome Back, {user.user.username}!</h3>
                 : ''
@@ -34,7 +36,7 @@ const Navbar = ({user, setUser}) => {
                 ? <div onClick={() => {
                     logoutUser();
                     setUser(null);
-                    history.push("/registerUserAccount");
+                    history.push("/loginUserAccount");
                 }}>Log Out</div>
                 : <div onClick={() => {
                     history.push("/loginUserAccount");

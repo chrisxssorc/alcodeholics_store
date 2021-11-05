@@ -47,8 +47,13 @@ const Alcohols = ({alcohols, setAlcohols, user}) => {
                             </CardContent>
                             <CardActions>
                                 <Button variant="contained" onClick={async () => {
-                                    await addToCart(user.user.id, alcohol.id);
-                                    history.push("/cart");
+                                    if (user) {
+                                        await addToCart(user.user.id, alcohol.id);
+                                        history.push("/cart");
+                                    } else {
+                                        history.push("/cart");
+                                    }
+                                    
                                 }}>
                                     Add to Cart
                                 </Button>
