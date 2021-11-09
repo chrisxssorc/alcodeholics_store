@@ -41,7 +41,9 @@ const Cart = ({user}) => {
               {cartItems.map((item, index) => {
                 return (
                   <div className="cartItem" key={index}>
-                    <div>{item.name}</div>
+                    <div id="cartItemName">{item.name}</div>
+
+                    <div id="cartItemDetails">
                     <label for="item">Quantity:</label>
       
                     <select
@@ -77,6 +79,7 @@ const Cart = ({user}) => {
                     >
                       Delete
                     </button>
+                    </div>
                   </div>
                 );
               })}
